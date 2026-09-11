@@ -3,17 +3,15 @@ import React, { useEffect, useRef, useState } from "react";
 import "./index.css";
 
 import weddingMusic from "./music/invitationsong.mp3";
-import invitationImage from "./images/invitation.png";
-
 const WEDDING_DATE = "2026-12-20T09:30:00";
 
 const photos = [
-  "/src/images/couple1.png",
-  "/src/images/couple2.jpeg",
-  "/src/images/couple3.png",
-  "/src/images/couple4.png",
-  "/src/images/couple5.png",
-  "/src/images/couple6.png",
+  "/images/couple1.png",
+  "/images/couple2.jpeg",
+  "/images/couple3.png",
+  "/images/couple4.png",
+  "/images/couple5.png",
+  "/images/couple6.png",
 ];
 
 /* =========================================================
